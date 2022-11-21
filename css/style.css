@@ -1,0 +1,458 @@
+#header {
+    background-color: #ee4d2d;
+    max-height: 1200px;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#header .container-top-header,
+#header .container-bottom-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .container-top-header ul li {
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+
+}
+
+#header .container-top-header ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#header .container-top-header ul li a:hover {
+    opacity: 0.6;
+}
+
+#header .container-bottom-header {
+    justify-content: space-between;
+}
+
+#header .container-top-header .icon-top {
+    color: white;
+}
+
+#header .container-top-header ul li a.become-shoppee::after {
+    content: "";
+    display: block;
+    height: 0.9375rem;
+    width: 1px;
+    background-color: orange;
+    position: absolute;
+    top: 5px;
+    left: -2px;
+}
+
+#header .container-top-header ul li a.become-shoppee::before {
+    content: "";
+    display: block;
+    height: 0.9375rem;
+    width: 1px;
+    background-color: orange;
+    position: absolute;
+    top: 5px;
+    right: -2px;
+}
+
+#header .container-top-header ul li a.connect::after {
+    content: "";
+    display: block;
+    height: 0.9375rem;
+    width: 1px;
+    background-color: orange;
+    position: absolute;
+    top: 5px;
+    left: -2px;
+}
+
+#header .container-bottom-header .logo .text-logo {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#main{
+    margin-top: 125px;
+}
+
+.container-bottom-header #search {
+    position: relative;
+}
+
+#search .search-button-input {
+    width: 640px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+}
+
+#search .search-icon {
+    border: none;
+    color: white;
+    background-color: white;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 50px;
+    line-height: 30px;
+    background-color: #ff7337;
+    border-radius: 2px;
+}
+
+.container-bottom-header #cart a {
+    font-size: 28px;
+    color: white;
+    margin-right: 75px;
+}
+
+#header .suggest {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 31.2%;
+    top: 80%;
+}
+
+#header .suggest a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* END HEADER */
+
+#wp-sale-service {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.sale-banner {
+    margin-bottom: 10px;
+}
+
+
+.wp-banner .slider-banner {
+    float: left;
+    margin-right: 5px;
+}
+
+.carousel-inner .item img {
+    border-radius: 2px;
+}
+
+.sale-banner .sale-banner-top {
+    margin-bottom: 6px;
+}
+
+.sale-banner .sale-banner-top img,
+.sale-banner .sale-banner-bottom img {
+    border-radius: 2px;
+}
+
+/* END SLIDE BANNER */
+.service {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service .service-item {
+    width: 150px;
+    height: 108px;
+    text-align: center;
+    padding: 5px;
+}
+
+.service .service-item {
+    text-decoration: none;
+}
+
+.service .service-item img {
+    margin-bottom: 5px;
+}
+
+.service .service-item:hover {
+    transform: translatey(-2px);
+}
+
+/* END SALE AND SERVICE */
+#wp-product {
+    background-color: #e8e8e8;
+    border-top: 1px solid rgb(228, 228, 228);
+}
+
+#wp-product .wp-product-item {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* END BANNER PRODUCT */
+
+.wp-category {
+    margin-top: 20px;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wp-category .category {
+    border: 1px solid rgb(228, 228, 228);
+    padding: 20px 20px;
+}
+
+.wp-cat-item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.wp-category .wp-cat-item .wp-border-cat-item {
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.wp-category .cat-item {
+    padding: 5px;
+}
+
+.wp-category .cat-item a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* END CATEGORY */
+
+.wp-product-item .flash-sale {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.wp-title-sale {
+    padding: 20px;
+    font-size: 20px;
+    color: orangered;
+}
+
+.wp-title-sale .time-sale {
+    color: black;
+    font-size: 18px;
+}
+
+.wp-title-sale .show-all-sale {
+    color: orangered;
+    font-size: 16px;
+}
+
+.wp-title-sale .show-all-sale .icon-show-all-sale {
+    font-size: 12px;
+}
+
+.flash-sale .product-sale {
+    width: 170px;
+    height: 248px;
+    text-align: center;
+}
+
+.flash-sale .title-flash-sale {
+    display: inline-block;
+}
+
+.flash-sale .time-sale {
+    display: inline-block;
+}
+
+.flash-sale .show-all-sale {
+    float: right;
+}
+
+/* END FLASH SALE */
+
+.wp-product-sale {
+    justify-content: space-between;
+}
+
+.product-sale {
+    width: 200px;
+    height: 248px;
+}
+
+.product-sale a {
+    text-decoration: none;
+}
+
+.product-sale .pro-sale {
+    margin-top: 5px;
+}
+
+.product-sale .sale-price {
+    color: #ee4d2d;
+    font-size: 20px;
+}
+
+.product-sale .sale-price {
+    color: #ee4d2d;
+    font-size: 20px;
+}
+
+.product-sale .sale-price .unit-pice {
+    color: #ee4d2d;
+    font-size: 10px;
+}
+
+.product-sale .pro-sale {
+    border: 5px;
+}
+
+/* END PRODUCT SALE */
+
+.wp-brand-sale {
+    background-color: white;
+    margin-top: 20px;
+    height: 130px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* END BRAND SALE */
+
+.wp-suggest-items{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+.suggest .suggest-today {
+    background-color: white;
+    color: #ee4d2d;
+    border-bottom: 5px solid orangered;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    position: sticky;
+    top: 116px;
+    z-index: 1;
+}
+
+.suggest .suggest-items {
+    width: 200px;
+    height: 292px;
+    text-align: center;
+}
+
+.suggest .suggest-items a{
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.suggest .suggest-items .text-suggest {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(73, 72, 72);
+}
+
+.wp-price-suggest {
+    margin-top: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.wp-price-suggest .price-suggest {
+    float: left;
+    color: #ee4d2d;
+    padding-left: 2px;
+    font-size: 18px;
+}
+
+.wp-price-suggest .sell-suggest {
+    float: right;
+    color: rgb(121, 120, 120);
+    font-size: 14px;
+    padding-right: 2px;
+}
+
+
+.btn-more {
+    background-color: #e8e8e8;
+    justify-content: center;
+}
+
+.btn-more .more{
+    padding: 10px 20px;
+    width: 420px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.btn-more .more:hover{
+    opacity: 0.6;
+}
+
+/* END HEADER  */
+
+
+#footer{
+    background-color: none;
+    border-top: 5px solid #ee4d2d;
+}
+
+#footer .wp-footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .contact a{
+    color: black;
+    text-decoration: none;
+}
+
+#footer .contact .facebook,
+#footer .contact .instagram,
+#footer .contact .zalo{
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+/* CSS COMMON */
+.bg-oranged {
+    background-color: #ee4d2d;
+}
+
+/* BOOSTRAP  */
+div[class^="col-xs-1"] {
+    border: 1px solid black;
+}
+
+.col-xs-1-10,
+.col-sm-1-10 {
+    position: relative;
+    min-height: 1px;
+}
+
+.col-xs-1-10 {
+    width: 10%;
+    float: left;
+}
